@@ -5,3 +5,67 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+body {
+    margin: 0;
+}
+img {
+    width: 100%;
+    height: fit-content; 
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10%;
+    border-top: 1px solid rgba(91, 94, 109, 0.1);
+    border-bottom: 1px solid rgba(91, 94, 109, 0.1);
+}
+#slack-logo {
+    width: 35%;
+    height:fit-content;
+}
+#menu-icon {
+    width: 10%;
+    height: fit-content;
+}
+header {
+    padding: 0 8%;
+}
+h1 {
+    color: #2C303F;
+}
+p {
+    color: rgba(91, 94, 109, 0.8);
+}
+header > img {
+    width: 100%;
+    height: fit-content;
+}
+form{
+    
+}
+#email{
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    border: 1px solid rgba(91, 94, 109, 0.1);
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+button{
+    width: 100%;
+    text-align: center;
+    background-color: #192592;
+    border: 1px solid rgba(91, 94, 109, 0.1);
+    border-radius: 5px;
+    color: white;
+    padding: 5%;
+}
+#signin {
+    text-align: center;
+}
+
+#discover{
+    background-color: #F4F3F4;
+}
